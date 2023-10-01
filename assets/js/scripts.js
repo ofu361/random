@@ -3,15 +3,15 @@ function availableCars(car){
     let quantity = 0;
 
     switch(car){
-        case "Tyota":
+        case "تويوتا":
             quantity = 3;
             break;
 
-        case "Nissan":
+        case "نيسان":
             quantity = 2;
             break;
 
-        case "Benz":
+        case "مرسيدس":
             quantity = 1;
             break;
 
@@ -24,7 +24,7 @@ function availableCars(car){
 
 function loopRunner(){
 
-    let animals = ["Schaff","Hänchen","Küh","Pferd"];
+    let animals = ["خروف","دجاجه","بقره","حصان"];
 
     animals.forEach( function(element){
         console.log(element);
