@@ -1,0 +1,9 @@
+td{
+    background-color: orange;
+}
+
+img{
+    display: block;
+    display: inline-block;
+    display: inline;
+}
