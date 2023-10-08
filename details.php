@@ -29,22 +29,14 @@
             <div class="row">
                 <div class="col-sm-8">
                     <table class="table table-dark text-center shadow">
-                        <tr class="bg-warning">
-                            <th>المجموعه الأولى</th>
-                            <th>المجموعه الثانيه</th>
-                        </tr>
-                        <?php for ($i = 0; $i < sizeof($robots); $i++) { ?>
-                            <?php if ($i % 2 == 0) echo "<tr>"; ?>
-                            <td>
-                                <img src=<?php echo "assets/images/" . $robots[$i]->image ?> width="100px" />
-                                <ul>
-                                    <li><?php echo $robots[$i]->name ?></li>
-                                    <li><?php echo $robots[$i]->spec ?></li>
-                                </ul> 
-                                <a class="btn btn-outline-warning" href="details.php?robot=<?= $i ?>" >فحص</a>
-                            </td>
-                            <?php if ($i % 2 == 1) echo "</tr>"; ?>
-                        <?php } ?>
+                    <div class="card" style="width: 18rem;">
+                        <img src=<?php echo "./assets/images/{$this->image}"; ?> class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo "./assets/images/{$this->name}"; ?> </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        </div>
                     </table>
                 </div>
             </div>

@@ -9,7 +9,7 @@
 	<script src="assets/vendors/jquery/jquery-3.4.1.min.js"></script>
 	<script src="assets/vendors/bootstrap-5.3.2/js/bootstrap.bundle.min.js"></script>    
 </head>
-<body>
+<body class="d-flex flex-column h-100">
 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">NONE</a>
